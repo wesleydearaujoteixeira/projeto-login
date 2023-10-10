@@ -36,6 +36,7 @@ section {
     text-align: justify;
     overflow: hidden;
     transition: width .3s, height .3s;
+    padding-bottom: 80px;
 
     
 }
@@ -63,4 +64,60 @@ h1 {
 
 p {
     font-size: 1.2em;
+}
+
+input[type=submit] {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+input[type=submit]:hover {
+    background-color: chartreuse;
+}
+
+.botão {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    background-color: darkgreen;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.botão:hover {
+    background-color: chocolate;
+}
+
+.campo {
+    background-color: #5f2c82;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    margin-top: 5px;
+    height: 40px;
+}
+
+label {
+    display: none;
+}
+
+input[type=email]{
+    width: 70%;
+}
+
+input[type=password]{
+    width: 70%;
 }
