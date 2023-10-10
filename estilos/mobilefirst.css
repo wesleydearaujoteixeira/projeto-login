@@ -116,8 +116,10 @@ label {
 
 input[type=email]{
     width: 80%;
+    line-height: 30px;
 }
 
 input[type=password]{
     width: 80%;
+    line-height: 30px;
 }
