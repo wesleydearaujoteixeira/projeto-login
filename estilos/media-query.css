@@ -9,12 +9,14 @@
    
     section {
         width: 80vw;
+        height: ;
     }
 
     #imagem {
         float: left;
         width: 30%;
         height: 100%;
+        background-position: right bottom;
 
     }
 
@@ -31,12 +33,16 @@
     }
     section {
         width: 950px;
+        overflow: hidden;
     }
 
     #imagem {
         float: right;
         width: 50%;
         height: 100%;
+        margin-bottom: 10px;
+        overflow: hidden;
+
     }
 
     #formulario {
